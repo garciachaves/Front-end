@@ -29,7 +29,7 @@ if (nomePeca.length > 3) {
     console.log("Nome de peça inválido, o nome deve ter mais de 3 caracteres")
 }
 
-let nomePeca2 = listaPecas[9];
+let nomePeca2 = listaPecas[8];
 
 if (nomePeca2.length > 3) {
     console.log("Nome da peça é válido, pode seguir com o cadastro");

@@ -8,10 +8,6 @@ if(peso > 100) {
 
 let listaPecas = ["Disco de freio", "Amortecedor", "Virabrequim", "Vela", "Bateria", "Radiador", "Carter", "Correia", "Ignição", "Embreagem", "Fio" ]
 
-//[1,2,3,4,5,6,7,8,9,10]
-//[0,1,2,3,4,5,6,7,8,9]
-// se selecionarmos oq vai ser comentando e clicar em ctrl+; a seleção será comentada
-
 console.log("Peça de Exemplo: " + listaPecas[0])
 let numeroPecas = listaPecas.length;
 

@@ -1,34 +1,22 @@
-let peso = 99;
+let listaPecas = ["Disco de freio", "Amortecedor", "Virabrequim", "Vela", "Bateria", "Radiador", "Carter", "Correia", "Ignição", "Embreagem", "Fio" ];
 
-if(peso > 100) {
-    console.log("A peça possui um peso adequado, pode ser cadastrdo!")
-}else {
-    console.log("A peça não pode ser cadastrada, não possui o pesso mínimo")
-}
-
-let listaPecas = ["Disco de freio", "Amortecedor", "Virabrequim", "Vela", "Bateria", "Radiador", "Carter", "Correia", "Ignição", "Embreagem", "Fio" ]
-
-console.log("Peça de Exemplo: " + listaPecas[0])
-let numeroPecas = listaPecas.length;
-
-if (listaPecas.len < 10) {
-    console.log("A lista ainda possui espaço para mais peças.")
+if (listaPecas.length < 10) {
+    console.log("A lista ainda possui espaço para mais peças.");
 } else {
-    console.log("Não há mais espaço disponível na lista, a capacidade máxima foi atingida")
+    console.log("Não há mais espaço disponível na lista, a capacidade máxima foi atingida");
 }
 
-let nomePeca = "Fio"
+let peso = 99;
+if(peso > 100) {
+    console.log("A peça possui um peso adequado, pode ser cadastrdo!");
+}else {
+    console.log("A peça não pode ser cadastrada, não possui o pesso mínimo");
+}
+
+let nomePeca = listaPecas[10];
 
 if (nomePeca.length > 3) {
     console.log("Nome da peça é válido, pode seguir com o cadastro");
 } else {
-    console.log("Nome de peça inválido, o nome deve ter mais de 3 caracteres")
-}
-
-let nomePeca2 = listaPecas[8];
-
-if (nomePeca2.length > 3) {
-    console.log("Nome da peça é válido, pode seguir com o cadastro");
-} else {
-    console.log("Nome de peça inválido, o nome deve ter mais de 3 caracteres")
+    console.log("Nome de peça inválido, o nome deve ter mais de 3 caracteres");
 }

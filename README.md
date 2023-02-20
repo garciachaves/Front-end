@@ -1,5 +1,5 @@
 # Atividade para uma disciplina do curso de Front-end - SENAI SP
-##Sistema de peças
+## Sistema de peças
 
 A primeira parte do código define uma lista de peças chamada "listaPecas". Em seguida, um condicional é utilizado para verificar se a lista ainda possui espaço para mais peças. Se a lista tiver menos de 10 itens, o código imprime uma mensagem indicando que ainda há espaço disponível para mais peças. Caso contrário, o código imprime uma mensagem indicando que não há mais espaço disponível na lista.
 
